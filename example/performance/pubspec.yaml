@@ -5,11 +5,13 @@ description: Evaluation of the performance of the rule engine package
 # author: Pieter Delobelle <pieter.delobelle@gmail.com>
 
 environment:
-  sdk: ">=1.15.0 <3.0.0"
+  sdk: ">=2.18.2 <3.0.0"
 
 dependencies:
   rule_engine:
     path: ../../
 
-dev_dependencies:
+dev_depende ncies:
   test: ^1.0.0
+  lints: ^2.0.0
+
